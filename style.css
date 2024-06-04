@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'GothamBold' sans-serif;
+}
+
+body {
+    font-size:x-large;
+    opacity: 0;
+    animation: fadeIn 1s forwards; 
+}
+
+header {
+    background-color:white;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+
+#container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+form{
+    padding: 20px;
+    border-radius: solid 4px white;
+    width: 600px;
+    margin: auto;
+    display: block;
+    margin-top: 65px;
+    margin-bottom: 140px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    height: 600px;
+}
+
+#fundo{
+    background-color: #0d0d0de1;
+    border-radius: 10px;
+    padding: 40px;
+    
+}
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+input{
+    width: 95%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.formulario{
+    margin-top: 18px;
+    font-size: 17px;
+    color: white;
+}
+#notifica-email, #notifica-sms{
+    width: 15px;
+}
+button{
+    width: 98%;
+    background-color: #245e3ce1;
+    padding: 7px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 5px;
+}
+button a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#voltar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#bodylogin{
+    background: url('img/fundo.png') 
+    no-repeat center center;
+    background-size: 130%;
+}
+
+#fundo h2{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+#acesso{
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+}
