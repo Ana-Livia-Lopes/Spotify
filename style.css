@@ -64,7 +64,7 @@ hr{
 #midias h2{
     margin-bottom: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica;
-    font-size: 30px;
+    font-size: 31px;
 }
 
 input{
@@ -216,14 +216,15 @@ input:checked + .slider:before {
 }
 /* fim area Toggle Switch */
 .imgmidia{
-    width: 23px;
-    margin-right: 14px;
+    width: 21px;
+    margin-right: 35px;
 }
 #google{
-    margin-right: 10%;
+    margin-right: 16%;
 }
 #apple{
-    margin-right: 13%;
+    margin-right: 20%;
+    width: 27px;
 }
 #spotify{
     width: 35px;
