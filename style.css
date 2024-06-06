@@ -6,38 +6,35 @@
 
 body {
     font-size:large;
-
 }
-
-header {
-    background-color:white;
+footer{
+    background-color:#161616e1;
     color:white;
-    padding: 10px;
     text-align: center;
+    padding: 10px;
+    bottom: 0;
+    height: 65px;
 }
-
-#container {
-    max-width: 1300px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer p{
+    
+    font-size: 13px;
+    color: rgb(143, 143, 143);
+    margin-top: 24px;
 }
-
-
-
+footer a{
+    color: rgb(143, 143, 143);
+}
 #index{
     padding: 20px;
-
-    width: 700px;
+    width: 655px;
     margin: auto;
     display: block;
-    margin-top: 40px;
-    margin-bottom: 140px;
+    margin-top: 32px;
+    margin-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    height: 600px;
-    background-color: #0d0d0de1;
-    border-radius: 5px;
+    height: 940px;
+    background-color: #131313e1;
+    border-radius: 10px;
     padding: 40px;
     color: white;
 }
@@ -51,9 +48,9 @@ header {
 }
 hr{
     margin-bottom: 10px;
-    border-color: rgba(79, 79, 79, 0.585);
-    margin-top: 25px;
-    margin-bottom: 25px;
+    border-color: rgba(79, 79, 79, 0.363);
+    margin-top: 27px;
+    margin-bottom: 28px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -66,6 +63,8 @@ hr{
 }
 #midias h2{
     margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica;
+    font-size: 30px;
 }
 
 input{
@@ -77,9 +76,10 @@ input{
     font-size: 15px;
     background-color: transparent;
     height: 33px;
+    color: white;
 }
 #nome{
-    margin-right: 20%;
+    margin-right: 19%;
     margin-bottom: 10px;
 }
 #senha{
@@ -100,19 +100,21 @@ input{
     width: 15px;
 }
 button{
-    width: 98%;
-    background-color: #245e3ce1;
+    width: 320px;
+    height: 48px;
+    background-color: #16fd76e1;
     padding: 7px;
-    margin-top: 6px;
+    margin-top: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 51px;
 }
 button a {
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
 }
+
 #voltar a{
     text-decoration: none;
     color: white;
@@ -123,11 +125,9 @@ button a {
 }
 
 #bodylogin{
-    background: url('img/fundo.png') 
-    no-repeat center center;
-    background-size: 130%;
+    background: rgb(13,13,13);
+    background: linear-gradient(0deg, rgba(13,13,13,1) 0%, rgba(19,19,19,1) 47%, rgba(36,36,36,1) 100%);
 }
-
 #fundo h2{
     margin-top: 10px;
     color: white;
@@ -141,11 +141,16 @@ button a {
 /* area Toggle Switch, estudar */
 .switch {
   position: relative;
-  display: inline-block;
   width: 30px;
   height: 17px;
 }
-
+.switch:hover {
+    position: relative;
+    width: 30px;
+    height: 17px;
+    border: solid 3px white;
+    border-radius: 40px;
+  }
 .switch input {
   opacity: 0;
   width: 0;
@@ -159,26 +164,25 @@ button a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #4b4b4b;
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 .slider:before {
   position: absolute;
   content: "";
-  height: 13px;
-  width: 13px;
+  height: 12px;
+  width: 12px;
   left: 4px;
-  bottom: 4px;
-  background-color: white;
+  bottom: 3px;
+  background-color: black;
   -webkit-transition: .4s;
-  transition: .4s;
-  top: 2px;
+  transition: .1s;
+  top: 3px;
 }
 
 input:checked + .slider {
-  background-color: #119126;
+  background-color: #16fd76e1;
 }
 
 
@@ -198,16 +202,55 @@ input:checked + .slider:before {
 #verde{
     display: flex;
     justify-content: center;
-    align-items: start;
+    margin-top: 15px;
+    margin-right: 30%;
+}
+#verde .switch {
+    margin-right: 10px; 
+}
+#verde label{
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
 }
 /* fim area Toggle Switch */
 .imgmidia{
-    width: 25px;
-    margin-right: 15px;
+    width: 23px;
+    margin-right: 14px;
 }
 #google{
     margin-right: 10%;
 }
 #apple{
     margin-right: 13%;
+}
+#spotify{
+    width: 35px;
+    margin-bottom: 25px;
+}
+#midias a{
+    text-decoration: none;
+    color: white;
+}
+.midia:hover, input:hover{
+    border: solid 1.5px rgba(255, 255, 255, 0.585);
+}
+#branco a{
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+#branco a:hover{
+    color: rgb(87, 224, 87);
+}
+#branco p{
+    margin-top: 45px;
+    color: rgb(181, 181, 181);
+}
+.formulario p{
+    margin-top: 40px;
+}
+#botao:hover{
+    transform: scale(1.1);
 }
