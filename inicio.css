@@ -12,7 +12,7 @@ body{
 
 .sidebar{
     width: 300px;
-    background: #ccc;
+    background: #000000;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,6 +23,7 @@ body{
     background: #111111;
     border-radius: 10px;
     padding: 20px 10px;
+    margin-bottom: 5px;
  
 }
 
@@ -63,4 +64,71 @@ width: 120px;
            margin-right: 10px;
                 }
 
-        
+    .library::after{
+        content: '+';
+        float: right;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 15px;      
+    }
+
+    .playlist{
+        background: #3b3a3a;
+        padding: 30px 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .sidebar-scroll{
+        height: 120px;
+        overflow-y: auto;
+    }
+
+    .sidebar-scroll::-webkit-scrollbar-thumb{
+      background: transparent;
+      width: 10px;
+      opacity: 0;
+    }
+
+    .sidebar-scroll:hover::-webkit-scrollbar-thumb{
+        background: #5c5b5b;
+        width: 5px;
+      }
+
+      .playlist h4{
+        color: #fff;
+        font-size: 15px;
+     
+    }
+
+    .playlist p{
+        color: #fff;
+        font-size: 12px;
+        margin-top: 12px 0;
+    }
+    .playlist button{
+       padding: 8px 15px; 
+       border: 0;
+       outline: 0;
+       border-radius: 20px;
+       font-weight: 600;
+       margin-bottom: 10px;
+    }
+    .privacidade ul li a{
+        text-decoration: none;
+        color: #5c5b5b;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0 5px;
+    }
+
+    .privacidade ul ul{
+        list-style: none;
+    }
+    .privacidade ul li{
+        padding-bottom: 5px;
+    }
+    .privacidade{
+        padding: 0 12px;
+        margin-top: 30px;
+    }
+
