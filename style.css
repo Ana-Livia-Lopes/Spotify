@@ -6,7 +6,6 @@
 
 body {
     font-size:large;
-
 }
 footer{
     background-color:#161616e1;
@@ -50,7 +49,7 @@ footer a{
 hr{
     margin-bottom: 10px;
     border-color: rgba(79, 79, 79, 0.363);
-    margin-top: 25px;
+    margin-top: 27px;
     margin-bottom: 28px;
     width: 80%;
     margin-left: auto;
@@ -64,6 +63,8 @@ hr{
 }
 #midias h2{
     margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica;
+    font-size: 30px;
 }
 
 input{
@@ -75,6 +76,7 @@ input{
     font-size: 15px;
     background-color: transparent;
     height: 33px;
+    color: white;
 }
 #nome{
     margin-right: 19%;
@@ -214,7 +216,7 @@ input:checked + .slider:before {
 }
 /* fim area Toggle Switch */
 .imgmidia{
-    width: 25px;
+    width: 23px;
     margin-right: 14px;
 }
 #google{
@@ -236,10 +238,15 @@ input:checked + .slider:before {
 }
 #branco a{
     color: white;
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-bottom: 5px;
 }
 #branco a:hover{
     color: rgb(87, 224, 87);
+}
+#branco p{
+    margin-top: 45px;
+    color: rgb(181, 181, 181);
 }
 .formulario p{
     margin-top: 40px;
