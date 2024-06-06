@@ -6,7 +6,7 @@
 
 body{
     background: #000;
-    font-family: 'GothamBold' sans-serif;
+    font-family: CircularSp, sans-serif;
 
 }
 
@@ -44,6 +44,9 @@ width: 120px;
         .sidebar-nav ul li{
             padding: 10px 20px;
             }
+        .sidebar-nav ul li a:hover{
+         color: #fff;
+            }
 
             .sidebar-nav ul li i{
             text-decoration: none;
@@ -69,7 +72,8 @@ width: 120px;
         float: right;
         text-align: center;
         border-radius: 50%;
-        font-size: 15px;      
+        font-size: 20px;     
+         
     }
 
     .playlist{
@@ -77,34 +81,27 @@ width: 120px;
         padding: 30px 15px;
         border-radius: 10px;
         margin-bottom: 10px;
+        
     }
-    .sidebar-scroll{
-        height: 120px;
-        overflow-y: auto;
-    }
-
-    .sidebar-scroll::-webkit-scrollbar-thumb{
-      background: transparent;
-      width: 10px;
-      opacity: 0;
-    }
-
-    .sidebar-scroll:hover::-webkit-scrollbar-thumb{
-        background: #5c5b5b;
-        width: 5px;
-      }
+  
 
       .playlist h4{
         color: #fff;
         font-size: 15px;
+   
      
     }
-
     .playlist p{
         color: #fff;
         font-size: 12px;
-        margin-top: 12px 0;
+        margin-top: 9px ;
     }
+    .playlist button {
+        margin-top: 15px;
+    }
+
+
+
     .playlist button{
        padding: 8px 15px; 
        border: 0;
@@ -116,19 +113,22 @@ width: 120px;
     .privacidade ul li a{
         text-decoration: none;
         color: #5c5b5b;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 600;
         margin: 0 5px;
     }
+    .privacidade ul li a:hover{
+        text-decoration: underline;
+       color: #b3b3b3;
+      
+    }
 
-    .privacidade ul ul{
+    .privacidade ul{
         list-style: none;
+        margin-top: 10px;  
     }
     .privacidade ul li{
-        padding-bottom: 5px;
-    }
-    .privacidade{
-        padding: 0 12px;
-        margin-top: 30px;
+   padding: 0; 
+   padding-bottom: 5px;
     }
 
