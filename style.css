@@ -9,35 +9,18 @@ body {
 
 }
 
-header {
-    background-color:white;
-    color:white;
-    padding: 10px;
-    text-align: center;
-}
-
-#container {
-    max-width: 1300px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
 
 #index{
     padding: 20px;
-
-    width: 700px;
+    width: 655px;
     margin: auto;
     display: block;
-    margin-top: 40px;
+    margin-top: 32px;
     margin-bottom: 140px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    height: 600px;
+    height: 940px;
     background-color: #0d0d0de1;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 40px;
     color: white;
 }
@@ -51,7 +34,7 @@ header {
 }
 hr{
     margin-bottom: 10px;
-    border-color: rgba(79, 79, 79, 0.585);
+    border-color: rgba(79, 79, 79, 0.363);
     margin-top: 25px;
     margin-bottom: 25px;
     width: 80%;
@@ -79,7 +62,7 @@ input{
     height: 33px;
 }
 #nome{
-    margin-right: 20%;
+    margin-right: 19%;
     margin-bottom: 10px;
 }
 #senha{
@@ -100,19 +83,23 @@ input{
     width: 15px;
 }
 button{
-    width: 98%;
-    background-color: #245e3ce1;
+    width: 320px;
+    height: 48px;
+    background-color: #16fd76e1;
     padding: 7px;
-    margin-top: 6px;
+    margin-top: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 51px;
 }
 button a {
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
 }
+/* #verde:hover{
+    border: solid 2px white;
+} */
 #voltar a{
     text-decoration: none;
     color: white;
@@ -141,7 +128,6 @@ button a {
 /* area Toggle Switch, estudar */
 .switch {
   position: relative;
-  display: inline-block;
   width: 30px;
   height: 17px;
 }
@@ -159,7 +145,7 @@ button a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #4b4b4b;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -171,14 +157,14 @@ button a {
   width: 13px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: black;
   -webkit-transition: .4s;
-  transition: .4s;
+  transition: .1s;
   top: 2px;
 }
 
 input:checked + .slider {
-  background-color: #119126;
+  background-color: #16fd76e1;
 }
 
 
@@ -198,16 +184,36 @@ input:checked + .slider:before {
 #verde{
     display: flex;
     justify-content: center;
-    align-items: start;
+    margin-top: 10px;
+    margin-right: 22%;
+}
+#verde .switch {
+    margin-right: 10px; 
+}
+#verde label{
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
 }
 /* fim area Toggle Switch */
 .imgmidia{
     width: 25px;
-    margin-right: 15px;
+    margin-right: 14px;
 }
 #google{
     margin-right: 10%;
 }
 #apple{
     margin-right: 13%;
+}
+#spotify{
+    width: 35px;
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.midia:hover{
+    border: solid 1.5px rgba(255, 255, 255, 0.585);
 }
