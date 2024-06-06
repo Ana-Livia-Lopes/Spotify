@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'GothamBold' sans-serif;
+    font-family: CircularSp, sans-serif;
 }
 
 body {
@@ -45,6 +46,12 @@ footer a{
     text-align: center;
     margin-bottom: 10px;
     padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.midia p{
+    margin-right: 25px;
+
 }
 hr{
     margin-bottom: 10px;
@@ -63,7 +70,7 @@ hr{
 }
 #midias h2{
     margin-bottom: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, Helvetica;
+    font-family: CircularSp, "Helvetica Neue", sans-serif;
     font-size: 31px;
 }
 
@@ -79,11 +86,11 @@ input{
     color: white;
 }
 #nome{
-    margin-right: 19%;
+    margin-right: 15%;
     margin-bottom: 10px;
 }
 #senha{
-    margin-right: 40%;
+    margin-right: 38%;
     margin-bottom: 10px;
 }
 .formulario{
@@ -143,6 +150,7 @@ button a {
   position: relative;
   width: 30px;
   height: 17px;
+  border: solid 3px transparent;
 }
 .switch:hover {
     position: relative;
@@ -217,14 +225,20 @@ input:checked + .slider:before {
 /* fim area Toggle Switch */
 .imgmidia{
     width: 21px;
-    margin-right: 35px;
+}
+#Facebook{
+    margin-right: 22px;
+    margin-left: 9%;
+
 }
 #google{
-    margin-right: 16%;
+    margin-right: 13%;
+    margin-left: 8%;
 }
 #apple{
-    margin-right: 20%;
+    margin-right: 13%;
     width: 27px;
+    margin-left: 5px;
 }
 #spotify{
     width: 35px;
