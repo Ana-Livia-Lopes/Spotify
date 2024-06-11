@@ -6,10 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="inicio.css"> 
+    <link rel="stylesheet" href="style.css"> 
     <title>Spotify</title>
 </head>
-<body>
+<body id="boby-inicio-player">
     <div class="sidebar">
         <div class="sidebar-nav">
             <div class="logo">
@@ -33,31 +33,32 @@
                     <i class="bi bi-collection"></i>
                     <span class="library"> Biblioteca</span>
                 </a></li>
-                <li>
-                    <div class="sidebar-scroll">
-                    <div class="playlist">
-                        <h4>
-                            Crie sua primeira playlist
-                        </h4>
-                        <p>É facíl, vamos te ajudar</p>
-                        <button>Criar Playlist</button>
-                    </div>
-                    
-                    </div>
-                </li>
-                <li>
-                  
+                <div id="barra">
+                    <li>
+                        <div class="sidebar-scroll">
                         <div class="playlist">
                             <h4>
-                               Que tal seguir um podcast novo?
+                                Crie sua primeira playlist
                             </h4>
-                            <p>Avisaremos você sobre novos episódios</p>
-                            <button>Explore podcast</button>
-                            
+                            <p>É facíl, vamos te ajudar</p>
+                            <button>Criar Playlist</button>
                         </div>
-                  
-                </li>
-        
+                        
+                        </div>
+                    </li>
+                    <li>
+                    
+                            <div class="playlist">
+                                <h4>
+                                Que tal seguir um podcast novo?
+                                </h4>
+                                <p>Avisaremos você sobre novos episódios</p>
+                                <button>Explore podcast</button>
+                                
+                            </div>
+                    
+                    </li>
+                </div>
             </ul>
             <div class="privacidade">
                 <ul>
@@ -89,6 +90,16 @@
         <div class="main-content">
       
             <header>
+                <div id="topo">
+                    <div id="topoesquerda">
+                        <a href="inicio.html"><img src="img/setaesquerda.png" id="setaesquerda" class="setas"></a>
+                        <a href="player.html"><img src="img/setadireita.png" id="setadireita" class="setas"></a>
+                    </div>
+                    <div id="topodireita">
+                        <p>Inscrever-se</p>
+                        <a href="index.html"><button id="entrar">Entrar</button></a>
+                    </div>
+                </div>
                 <h2>Artistas populares</h2>
                 <div class="img">
                     <div class="artist">
@@ -133,11 +144,13 @@
                         <h3>Starboy</h3>
                         <p>The Weeknd</p>
                     </div>
-                    <div class="album">
-                        <img src="img/contradiçoes.jpg" alt="Big Blakk">
-                        <h3>Segredo</h3>
-                        <p>Kay Black</p>
-                    </div>
+                    <a href="player.html" id="none">
+                        <div class="album">
+                            <img src="img/radiodeveigh.png" alt="veigh">
+                            <h3>Mandraka</h3>
+                            <p>Veigh</p>
+                        </div>
+                    </a>
                     <div class="album">
                         <img src="img/ultra.jpg" alt="Ludmilla">
                         <h3>Ultraviolence</h3>

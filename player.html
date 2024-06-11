@@ -4,88 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<link rel="stylesheet" href="inicio.css">
-    <title>spotify</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Spotify</title>
 </head>
-<body>
-   
-<div class="sidebar">
-    <div class="sidebar-nav">
-        <div class="logo">
-          <img src="img/Spotify_Logo_RGB_White.png" alt="">
-        </div>
-        <ul>
-            <li> <a href="">
-                <i class="bi bi-house-door"></i>
-                    <span>Ínicio</span>
-            </a></li>
-            <li> <a href="">
-                <i class="bi bi-search"></i>
-                <span>Buscar</span>
-        </a></li>
-        </ul>
-    </div>
-    <div class="sidebar-nav box2">
-        
-        <ul>
-            <li><a href="">
-                <img src="img/biblioteca.png" class="bibi-collection">
-                <span class="library"> Sua Biblioteca</span>
-            </a></li>
-            <li>
-                <div class="sidebar-scroll">
-                <div class="playlist">
-                    <h4>
-                        Crie sua primeira playlist
-                    </h4>
-                    <p>É facíl, vamos te ajudar</p>
-                    <button>Criar Playlist</button>
-                </div>
-                
-                </div>
-            </li>
-            <li>
-              
-                    <div class="playlist">
-                        <h4>
-                           Que tal seguir um podcast novo?
-                        </h4>
-                        <p>Avisaremos você sobre novos episódios</p>
-                        <button>Explore podcast</button>
-                        
-                    </div>
-              
-            </li>
-    
-        </ul>
-        <div class="privacidade">
+<body id="boby-inicio-player">
+    <div class="sidebar">
+        <div class="sidebar-nav">
+            <div class="logo">
+              <img src="img/Spotify_Logo_RGB_White.png" alt="">
+            </div>
             <ul>
-                <li>
-                    <a href="">Legal</a>
-                    <a href="">Segurança e Centro de privacidade</a>
-                  
-                </li>
-                <li>
-                    <a href="">Política da privacidade</a>
-                    <a href="">Cookies</a>
-                    <a href="">Sobre anúncios</a>
-                </li>
-                <li>
-                    <a href="">Acessibilidade</a>
-                </li>
-                <li>
-                    <a href="">Cookies</a>
-                </li>
+                <li> <a href="">
+                    <i class="bi bi-house-door"></i>
+                        <a href="inicio.html"><span>Ínicio</span></a>
+                </a></li>
+                <li> <a href="">
+                    <i class="bi bi-search"></i>
+                    <span>Buscar</span>
+            </a></li>
             </ul>
         </div>
-    </div>
-</div> 
- <!-- Playlist fora da barra lateral -->
-<div id="direita">
-    <iframe id="musicas" src="https://open.spotify.com/embed/playlist/37i9dQZF1E4ssFUaVFGCoX?utm_source=generator" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-</div>
+        <div class="sidebar-nav box2">
+            
+            <ul>
+                <li><a href="">
+                    <i class="bi bi-collection"></i>
+                    <span class="library"> Biblioteca</span>
+                </a></li>
+                <div id="barra">
+                    <li>
+                        <div class="sidebar-scroll">
+                        <div class="playlist">
+                            <h4>
+                                Crie sua primeira playlist
+                            </h4>
+                            <p>É facíl, vamos te ajudar</p>
+                            <button>Criar Playlist</button>
+                        </div>
+                        
+                        </div>
+                    </li>
+                    <li>
+                    
+                            <div class="playlist">
+                                <h4>
+                                Que tal seguir um podcast novo?
+                                </h4>
+                                <p>Avisaremos você sobre novos episódios</p>
+                                <button>Explore podcast</button>
+                                
+                            </div>
+                    
+                    </li>
+                </div>
+        
+            </ul>
+            <div class="privacidade">
+                <ul>
+                    <li>
+                        <a href="">Legal</a>
+                        <a href="">Segurança e Centro de privacidade</a>
+                      
+                    </li>
+                    <li>
+                        <a href="">Política da privacidade</a>
+                        <a href="">Cookies</a>
+                        <a href="">Sobre anúncios</a>
+                    </li>
+                    <li>
+                        <a href="">Acessibilidade</a>
+                    </li>
+                    <li>
+                        <a href="">Cookies</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="eng-btn">
+       
+            <button><i class="bi bi-globe"></i>    Português do Brasil</button>
+        </div>
+        </div>
+        </div>
+        <!-- Playlist fora da barra lateral -->
+         <header id="haderplayer">
+            <div id="topo" class="topoplayer">
+                <div id="topoesquerda">
+                    <a href="inicio.html"><img src="img/setaesquerda.png" id="setaesquerda" class="setas"></a>
+                    <a href="player.html"><img src="img/setadireita.png" id="setadireita" class="setas"></a>
+                </div>
+                <div id="topodireita">
+                    <p>Inscrever-se</p>
+                    <a href="index.html"><button id="entrar">Entrar</button></a>
+                </div>
+            </div>
+         </header>
+        <div id="direita">
+            <iframe id="musicas" src="https://open.spotify.com/embed/playlist/37i9dQZF1E4ssFUaVFGCoX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
 
 </body>
 </html>
