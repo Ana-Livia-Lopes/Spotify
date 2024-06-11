@@ -479,8 +479,9 @@ header {
     font-size: 16px; 
     margin-bottom: 20px;
 }
-#none{
+.none{
     text-decoration: none;
+    color: white;
 }
 
 .album p {
@@ -525,6 +526,7 @@ header {
 }
 #entrar:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 #haderplayer{
     float: right;
@@ -533,4 +535,7 @@ header {
 }
 .topoplayer{
     margin: 2%;
+}
+.pointer{
+    cursor: pointer;
 }
